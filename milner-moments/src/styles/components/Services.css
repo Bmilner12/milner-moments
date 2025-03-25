@@ -1,0 +1,111 @@
+.services {
+    padding: 5rem 0;
+    background-color: white;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+  }
+  
+  .service-card {
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .service-content {
+    padding: 1.5rem;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .service-description {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-list {
+    list-style: none;
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-icon {
+    color: #4CAF50;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+  
+  .service-link {
+    display: inline-flex;
+    align-items: center;
+    color: #3B7EA1;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .service-link svg {
+    margin-left: 0.25rem;
+    transition: transform 0.3s;
+  }
+  
+  .service-link:hover svg {
+    transform: translateX(4px);
+  }
+  
+  .services-link-container {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .services-link {
+    display: inline-block;
+    background-color: #3B7EA1;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .services-link:hover {
+    background-color: #2f6581;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .services-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }

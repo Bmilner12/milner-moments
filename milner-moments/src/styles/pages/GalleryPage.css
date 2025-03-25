@@ -1,0 +1,355 @@
+.page-header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://placekitten.com/1600/400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 7rem 0 5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .page-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .page-subtitle {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .gallery-content {
+    padding: 0 0 4rem;
+  }
+  
+  .gallery-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .category-btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .category-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .category-btn.active {
+    background-color: #3B7EA1;
+    color: white;
+  }
+  
+  .gallery-subcategories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .subcategory-tag {
+    background-color: #f8f8f8;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .gallery-item {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    aspect-ratio: 4/5;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  .gallery-item-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    padding: 2rem 1.5rem 1.5rem;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .gallery-item:hover .gallery-item-overlay {
+    opacity: 1;
+  }
+  
+  .gallery-item-overlay h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .gallery-item-overlay p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .no-images {
+    text-align: center;
+    padding: 3rem 0;
+    color: #666;
+  }
+  
+  /* Lightbox styles */
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .lightbox-content {
+    position: relative;
+    max-width: 1200px;
+    max-height: 90vh;
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lightbox-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .lightbox-image-container {
+    position: relative;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lightbox-image {
+    max-height: 70vh;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .lightbox-nav:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .lightbox-nav.prev {
+    left: 1rem;
+  }
+  
+  .lightbox-nav.next {
+    right: 1rem;
+  }
+  
+  .lightbox-details {
+    padding: 1.5rem;
+  }
+  
+  .lightbox-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .lightbox-details p {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .lightbox-meta {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .lightbox-category,
+  .lightbox-subcategory {
+    font-size: 0.875rem;
+    background-color: #f2f2f2;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    color: #666;
+    text-transform: capitalize;
+  }
+  
+  .cta-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://placekitten.com/1600/500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+    margin-top: 4rem;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #3B7EA1;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #2f6581;
+  }
+  
+  /* Responsive */
+  @media (max-width: 992px) {
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .lightbox-content {
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 2.5rem;
+    }
+    
+    .page-header {
+      padding: 6rem 0 4rem;
+    }
+    
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    .lightbox-nav {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.5rem;
+    }
+    
+    .cta-section h2 {
+      font-size: 2rem;
+    }
+    
+    .cta-section p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .category-btn {
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+    }
+    
+    .gallery-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .lightbox {
+      padding: 1rem;
+    }
+    
+    .lightbox-content {
+      max-height: 95vh;
+    }
+    
+    .lightbox-details {
+      padding: 1rem;
+    }
+    
+    .lightbox-nav {
+      width: 2rem;
+      height: 2rem;
+      font-size: 1.2rem;
+    }
+    
+    .lightbox-close {
+      width: 1.5rem;
+      height: 1.5rem;
+      font-size: 1rem;
+    }
+  }

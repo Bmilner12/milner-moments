@@ -1,0 +1,255 @@
+.page-header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/api/placeholder/1600/400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 7rem 0 5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .page-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .page-subtitle {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .about-section {
+    padding: 4rem 0;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    align-items: start;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-content p {
+    margin-bottom: 1.5rem;
+    color: #444;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  
+  .signature {
+    margin-top: 3rem;
+  }
+  
+  .signature-img {
+    margin: 1rem 0;
+  }
+  
+  .signature-name {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+  }
+  
+  .signature-title {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .philosophy-section {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .philosophy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .philosophy-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  .philosophy-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f7ff;
+    color: #3B7EA1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .philosophy-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .philosophy-item p {
+    color: #666;
+  }
+  
+  .process-section {
+    padding: 4rem 0;
+  }
+  
+  .process-timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .process-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    background-color: #e0e0e0;
+  }
+  
+  .process-item {
+    display: flex;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+  
+  .process-number {
+    width: 80px;
+    height: 80px;
+    background-color: #3B7EA1;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .process-content {
+    padding-top: 0.5rem;
+  }
+  
+  .process-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .process-content p {
+    color: #666;
+  }
+  
+  .cta-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/api/placeholder/1600/500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+    margin-top: 4rem;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #3B7EA1;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #2f6581;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    
+    .about-image {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 2.5rem;
+    }
+    
+    .page-header {
+      padding: 6rem 0 4rem;
+    }
+    
+    .process-number {
+      width: 60px;
+      height: 60px;
+      font-size: 1.2rem;
+      margin-right: 1.5rem;
+    }
+    
+    .process-timeline::before {
+      left: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page-title {
+      font-size: 2rem;
+    }
+    
+    .philosophy-item {
+      padding: 1.5rem;
+    }
+    
+    .philosophy-icon {
+      width: 60px;
+      height: 60px;
+    }
+  }
