@@ -89,7 +89,7 @@ const ServicesPage = () => {
         },
         {
           question: "How are the final images delivered, and what usage rights do I receive?",
-          answer: "You'll receive professionally edited, high-resolution digital images within 7-10 business days via a private online gallery. Images are suitable for print and digital use. Standard packages include usage rights for personal or business marketing purposes, while extended commercial licensing is available for publication or advertising use."
+          answer: "You'll receive professionally edited, high-resolution digital images within 7-10 business days via a private online gallery. Images are suitable for print and digital use. Usage rights and licenses to be discussed in consultation."
         }
       ],
       image: "/api/placeholder/800/600"

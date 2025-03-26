@@ -251,7 +251,7 @@ const PricingPage = () => {
               <div className="process-step">
                 <div className="step-number">1</div>
                 <div className="step-content">
-                  <h3>Inquiry</h3>
+                  <h3>Enquiry</h3>
                   <p>Contact us via email or phone to discuss your photography needs.</p>
                 </div>
               </div>
