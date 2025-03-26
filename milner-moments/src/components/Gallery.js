@@ -6,7 +6,7 @@ const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState('all');
   
   const galleryItems = [
-    { id: 1, image: '/api/placeholder/600/750', title: 'Autumn Joy', category: 'pets' },
+    { id: 1, image: 'images/dog_with_lead.jpg', title: 'Autumn Joy', category: 'pets' },
     { id: 2, image: '/api/placeholder/600/750', title: 'Wilderness Guardian', category: 'wildlife' },
     { id: 3, image: '/api/placeholder/600/750', title: 'Emerald Gaze', category: 'pets' },
     { id: 4, image: '/api/placeholder/600/750', title: 'Connected Moments', category: 'portraits' },

@@ -22,7 +22,7 @@ const GalleryPage = () => {
   
   // This would be replaced with your actual gallery images
   const galleryImages = [
-    { id: 1, category: 'pets', subcategory: 'Dogs', title: 'Autumn Joy', description: 'Golden retriever playing in autumn leaves', image: '/api/placeholder/800/1000' },
+    { id: 1, category: 'pets', subcategory: 'Dogs', title: 'Alert Companion', description: 'Energetic mixed-breed dog enjoying a walk on a crisp autumn day.', image: 'images/dog_with_lead.jpg' },
     { id: 2, category: 'pets', subcategory: 'Cats', title: 'Emerald Gaze', description: 'Close-up of a tabby cat with striking green eyes', image: '/api/placeholder/800/1000' },
     { id: 3, category: 'pets', subcategory: 'Dogs', title: 'Beach Run', description: 'Black lab running along the shoreline', image: '/api/placeholder/800/1000' },
     { id: 4, category: 'wildlife', subcategory: 'Birds', title: 'Perfect Timing', description: 'Kingfisher diving for a fish', image: '/api/placeholder/800/1000' },
