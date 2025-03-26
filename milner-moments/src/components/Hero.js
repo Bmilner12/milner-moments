@@ -7,7 +7,7 @@ const Hero = () => {
   
   const slides = [
     {
-      image: '/api/placeholder/1600/900',
+      image: 'images/dog_with_lead.jpg',
       title: 'Pet Photography',
       subtitle: 'Capturing Personalities'
     },

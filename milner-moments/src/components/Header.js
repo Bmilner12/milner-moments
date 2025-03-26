@@ -30,7 +30,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
-            <img src="/api/placeholder/120/50" alt="MilnerMoments" />
+            <img src="/images/MM_Logo.jpg" alt="MilnerMoments" />
           </Link>
           
           <nav className="desktop-nav">
