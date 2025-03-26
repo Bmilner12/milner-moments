@@ -286,7 +286,7 @@ const Contact = () => {
                         required
                       />
                       <label htmlFor="privacy">
-                        I agree to the <Link to="/privacy-policy">privacy policy</Link> and consent to being contacted regarding the enquiry.
+                      I agree to the <Link to="/terms-and-conditions">terms and conditions</Link> and consent to being contacted regarding the enquiry.
                       </label>
                     </div>
                     

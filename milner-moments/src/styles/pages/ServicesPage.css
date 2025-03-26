@@ -178,7 +178,7 @@
   }
   
   .service-cta-block {
-    background-color: #f8f8f8;
+    background-color: #0b2635;
     border-radius: 0.5rem;
     padding: 3rem;
     text-align: center;
@@ -191,7 +191,7 @@
   
   .cta-content p {
     font-size: 1.1rem;
-    color: #666;
+    color: #757373;
     margin-bottom: 2rem;
     max-width: 600px;
     margin-left: auto;
