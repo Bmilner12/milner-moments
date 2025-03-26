@@ -7,7 +7,7 @@ const Hero = () => {
   
   const slides = [
     {
-      image: 'images/dog_with_lead.jpg',
+      image: 'images/Dog_Graveyard.jpg',
       title: 'Pet Photography',
       subtitle: 'Capturing Personalities'
     },

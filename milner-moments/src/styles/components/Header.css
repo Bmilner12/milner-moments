@@ -193,19 +193,19 @@
 
   /* In your Header.css */
 .logo img {
-  width: 80px;
+  width: 100px;
   height: auto;
   transition: width 0.3s ease;
 }
 
 /* Make logo smaller when scrolled */
 .scrolled .logo img {
-  width: 50px;
+  width: 60px;
 }
 
 /* Responsive adjustment for smaller screens */
 @media (max-width: 768px) {
   .logo img {
-    width: 40px;
+    width: 50px;
   }
 }
