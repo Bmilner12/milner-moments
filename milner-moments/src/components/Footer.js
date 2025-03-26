@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="footer-about">
             <img src="/api/placeholder/160/50" alt="MilnerMoments" className="footer-logo" />
             <p className="footer-about-text">
-              Professional photography services specializing in pets, wildlife, and portrait photography throughout Leeds and West Yorkshire.
+              Professional photography services specializing in pets, wildlife, and Interior Space Photography throughout Leeds and West Yorkshire.
             </p>
             <div className="social-links">
               <a href="https://twtr.oia.bio/MilnerMoments" className="social-link" target="_blank" rel="noopener noreferrer">
@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li className="footer-link"><Link to="/services/pet">Pet Photography</Link></li>
               <li className="footer-link"><Link to="/services/wildlife">Wildlife Photography</Link></li>
-              <li className="footer-link"><Link to="/services/portrait">Portrait Photography</Link></li>
+              <li className="footer-link"><Link to="/services/interior space">Interior Space Photography</Link></li>
               <li className="footer-link"><Link to="/services/prints">Custom Prints</Link></li>
               <li className="footer-link"><Link to="/services/albums">Photo Albums</Link></li>
             </ul>

@@ -18,7 +18,7 @@ const Hero = () => {
     },
     {
       image: 'images/Royal_Armouries.jpg',
-      title: 'Landscape Photography',
+      title: 'Interior Space Photography',
       subtitle: 'Timeless Memories'
     }
   ];

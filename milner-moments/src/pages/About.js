@@ -23,9 +23,9 @@ const About = () => {
             </div>
             <div className="about-content">
               <h2>Hello, I'm Alex</h2>
-              <p>Welcome to MilnerMoments Photography! I'm a passionate photographer based in Leeds, specializing in pet, wildlife, and portrait photography.</p>
+              <p>Welcome to MilnerMoments Photography! I'm a passionate photographer based in Leeds, specializing in pet, wildlife, and Interior Space Photography.</p>
               <p>My journey into photography began 10 years ago when I received my first camera as a gift. What started as a hobby quickly developed into a passion and eventually into the business you see today.</p>
-              <p>I believe that every pet has a unique personality, every wildlife encounter tells a story, and every portrait captures a moment in time that will never be repeated. My mission is to preserve these special moments for you to treasure forever.</p>
+              <p>I believe that every pet has a unique personality, every wildlife encounter tells a story, and every interior space captures a moment in time that will never be repeated. My mission is to preserve these special moments for you to treasure forever.</p>
               <p>At MilnerMoments, we pride ourselves on creating a relaxed, enjoyable experience that allows the true essence of the subject to shine through. Whether it's capturing the playful spirit of your pet, the majesty of wildlife in their natural habitat, or the special connection between family members, we approach each session with dedication and creativity.</p>
               <div className="signature">
                 <p>Looking forward to capturing your special moments,</p>

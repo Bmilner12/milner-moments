@@ -59,8 +59,8 @@ const Services = () => {
       ]
     },
     {
-      title: "Portrait Photography",
-      description: "Timeless portrait sessions for individuals, couples, and families that tell your unique story.",
+      title: "Interior Space Photography",
+      description: "Timeless interior space sessions for individuals, couples, and families that tell your unique story.",
       image: "/api/placeholder/400/300",
       features: [
         "Location of your choice",

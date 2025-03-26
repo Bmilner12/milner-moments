@@ -11,7 +11,7 @@ const GalleryPage = () => {
     { id: 'all', name: 'All Photos' },
     { id: 'pets', name: 'Pet Photography' },
     { id: 'wildlife', name: 'Wildlife Photography' },
-    { id: 'portraits', name: 'Portrait Photography' },
+    { id: 'portraits', name: 'Interior Space Photography' },
   ];
   
   const subcategories = {
@@ -30,10 +30,10 @@ const GalleryPage = () => {
     { id: 6, category: 'wildlife', subcategory: 'Insects', title: 'New Beginnings', description: 'Butterfly emerging from cocoon', image: '/api/placeholder/800/1000' },
     { id: 7, category: 'portraits', subcategory: 'Families', title: 'Connected Moments', description: 'Family enjoying a picnic in the park', image: '/api/placeholder/800/1000' },
     { id: 8, category: 'portraits', subcategory: 'Couples', title: 'Twilight Romance', description: 'Couple silhouette against sunset', image: '/api/placeholder/800/1000' },
-    { id: 9, category: 'portraits', subcategory: 'Individuals', title: 'Authentic Self', description: 'Natural light portrait of woman laughing', image: '/api/placeholder/800/1000' },
+    { id: 9, category: 'portraits', subcategory: 'Individuals', title: 'Authentic Self', description: 'Natural light interior space of woman laughing', image: '/api/placeholder/800/1000' },
     { id: 10, category: 'pets', subcategory: 'Other Pets', title: 'Curious Friend', description: 'Rabbit exploring a garden setting', image: '/api/placeholder/800/1000' },
     { id: 11, category: 'wildlife', subcategory: 'Mammals', title: 'Dawn Visitor', description: 'Deer at sunrise in misty field', image: '/api/placeholder/800/1000' },
-    { id: 12, category: 'portraits', subcategory: 'Families', title: 'New Friends', description: 'Child with puppy portrait', image: '/api/placeholder/800/1000' },
+    { id: 12, category: 'portraits', subcategory: 'Families', title: 'New Friends', description: 'Child with puppy interior space', image: '/api/placeholder/800/1000' },
   ];
   
   const filteredImages = activeCategory === 'all' 

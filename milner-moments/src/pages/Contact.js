@@ -219,7 +219,7 @@ const Contact = () => {
                         >
                           <option value="pet">Pet Photography</option>
                           <option value="wildlife">Wildlife Photography</option>
-                          <option value="portrait">Portrait Photography</option>
+                          <option value="interior space">Interior Space Photography</option>
                           <option value="other">Other</option>
                         </select>
                       </div>

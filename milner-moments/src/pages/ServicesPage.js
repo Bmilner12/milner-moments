@@ -65,11 +65,11 @@ const ServicesPage = () => {
       ],
       image: "/api/placeholder/800/600"
     },
-    portrait: {
-      title: "Portrait Photography",
+    interior: {
+      title: "Interior Space Photography",
       tagline: "Timeless portraits that tell your story",
-      description: "Portrait photography is about capturing the essence of a person or family - the connections, emotions, and personalities that make each subject unique. I specialize in natural, relaxed portraits that reflect who you truly are, creating timeless images you'll treasure for years to come.",
-      approach: "My portrait sessions are relaxed and enjoyable. Rather than stiff, posed images, I focus on creating a comfortable environment where natural expressions and interactions can shine through. Sessions can take place at your home, a meaningful location, or one of my suggested scenic spots around Leeds and West Yorkshire.",
+      description: "Interior Space Photography is about capturing the essence of a person or family - the connections, emotions, and personalities that make each subject unique. I specialize in natural, relaxed portraits that reflect who you truly are, creating timeless images you'll treasure for years to come.",
+      approach: "My interior space sessions are relaxed and enjoyable. Rather than stiff, posed images, I focus on creating a comfortable environment where natural expressions and interactions can shine through. Sessions can take place at your home, a meaningful location, or one of my suggested scenic spots around Leeds and West Yorkshire.",
       features: [
         "Location of your choice",
         "Relaxed, natural posing guidance",
@@ -80,7 +80,7 @@ const ServicesPage = () => {
       ],
       faq: [
         {
-          question: "What should we wear for our portrait session?",
+          question: "What should we wear for our interior space session?",
           answer: "I recommend coordinating rather than matching outfits. Choose colors that complement each other and avoid large logos or distracting patterns. I'll provide more detailed guidance based on your chosen location and the style you prefer."
         },
         {
@@ -89,7 +89,7 @@ const ServicesPage = () => {
         },
         {
           question: "How many final images will we receive?",
-          answer: "This depends on the package you choose, but typically portrait sessions result in 15-25 final edited images. You'll have the opportunity to select your favorites from a wider gallery of proofs."
+          answer: "This depends on the package you choose, but typically interior space sessions result in 15-25 final edited images. You'll have the opportunity to select your favorites from a wider gallery of proofs."
         }
       ],
       image: "/api/placeholder/800/600"
@@ -125,10 +125,10 @@ const ServicesPage = () => {
               Wildlife Photography
             </button>
             <button 
-              className={`tab-btn ${activeTab === 'portrait' ? 'active' : ''}`}
-              onClick={() => setActiveTab('portrait')}
+              className={`tab-btn ${activeTab === 'interior space' ? 'active' : ''}`}
+              onClick={() => setActiveTab('interior')}
             >
-              Portrait Photography
+              Interior Space Photography
             </button>
           </div>
         </div>
