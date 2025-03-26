@@ -69,7 +69,7 @@ const TermsPage = () => {
           
           <div className="terms-section">
             <h2>7. Privacy and Data Protection</h2>
-            <p><strong>7.1 Personal Information</strong>: We collect and process personal information in accordance with our Privacy Policy and UK data protection laws.</p>
+            <p><strong>7.1 Personal Information</strong>: We collect and process personal information in accordance with our <a href="/privacy">Privacy Policy</a> and UK data protection laws.</p>
             <p><strong>7.2 Image Privacy</strong>: If you do not wish for your images to be used in our marketing materials or portfolio, please inform us in writing before your session.</p>
           </div>
           

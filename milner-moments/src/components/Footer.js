@@ -85,7 +85,7 @@ const Footer = () => {
           <p className="footer-copyright">&copy; {new Date().getFullYear()} MilnerMoments Photography. All rights reserved.</p>
           <div className="footer-legal">
             <a href="/privacy" className="legal-link">Privacy Policy</a>
-            <a href="/terms" className="legal-link">Terms of Service</a>
+            <a href="/terms-and-conditions" className="legal-link">Terms of Service</a>
             <a href="/cookies" className="legal-link">Cookies Policy</a>
           </div>
         </div>
