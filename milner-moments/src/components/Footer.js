@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-about">
-            <img src="/api/placeholder/160/50" alt="MilnerMoments" className="footer-logo" />
+            <img src="images/MM_Logo_Background_Removed.png" alt="MilnerMoments" className="footer-logo" />
             <p className="footer-about-text">
-              Professional photography services specializing in pets, wildlife, and Interior Space Photography throughout Leeds and West Yorkshire.
+              Professional photography services specialising in Pets, Wildlife, and Interior Space Photography throughout Leeds, West Yorkshire and beyond.
             </p>
             <div className="social-links">
               <a href="https://twtr.oia.bio/MilnerMoments" className="social-link" target="_blank" rel="noopener noreferrer">

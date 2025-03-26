@@ -16,7 +16,7 @@ const ServicesPage = () => {
         "Indoor or outdoor sessions",
         "Multiple pets welcome",
         "Natural and studio lighting options",
-        "Personalized experience for shy or energetic pets",
+        "Personalised experience for shy or energetic pets",
         "Guidance on preparing your pet for the shoot",
         "Range of packages to suit different needs and budgets"
       ],
@@ -39,8 +39,8 @@ const ServicesPage = () => {
     wildlife: {
       title: "Wildlife Photography",
       tagline: "The beauty of nature captured in its purest form",
-      description: "Wildlife photography allows us to witness the extraordinary beauty, behavior, and habitats of animals in their natural environment. My wildlife photography seeks to capture these fleeting moments with respect for the animals and their habitats, creating compelling images that showcase the wonder of the natural world.",
-      approach: "Wildlife photography requires patience, respect, and knowledge of animal behavior. I use long lenses to maintain a safe distance, minimizing disturbance to the animals. Sessions typically take place during the golden hours of early morning or late afternoon when wildlife is most active and the light is most beautiful. Conservation principles guide all my wildlife photography work.",
+      description: "Wildlife photography allows us to witness the extraordinary beauty, behaviour, and habitats of animals in their natural environment. My wildlife photography seeks to capture these fleeting moments with respect for the animals and their habitats, creating compelling images that showcase the wonder of the natural world.",
+      approach: "Wildlife photography requires patience, respect, and knowledge of animal behaviour. I use long lenses to maintain a safe distance, minimising disturbance to the animals. Sessions typically take place during the golden hours of early morning or late afternoon when wildlife is most active and the light is most beautiful. Conservation principles guide all my wildlife photography work.",
       features: [
         "Local wildlife locations",
         "Dawn and dusk sessions",
@@ -67,29 +67,29 @@ const ServicesPage = () => {
     },
     interior: {
       title: "Interior Space Photography",
-      tagline: "Timeless portraits that tell your story",
-      description: "Interior Space Photography is about capturing the essence of a person or family - the connections, emotions, and personalities that make each subject unique. I specialize in natural, relaxed portraits that reflect who you truly are, creating timeless images you'll treasure for years to come.",
-      approach: "My interior space sessions are relaxed and enjoyable. Rather than stiff, posed images, I focus on creating a comfortable environment where natural expressions and interactions can shine through. Sessions can take place at your home, a meaningful location, or one of my suggested scenic spots around Leeds and West Yorkshire.",
+      tagline: "Capturing the essence of architecture and design",
+      description: "Interior Space Photography is about showcasing the unique character, design, and atmosphere of built environments. I specialise in capturing the architectural details, spatial relationships, and lighting that make each interior space distinctive. Whether for real estate marketing, architectural portfolios, or design publications, my images highlight the beauty and functionality of interior spaces with expert composition and technical precision.",
+      approach: "My interior photography approach combines technical precision with artistic vision. I carefully assess lighting conditions and positioning to highlight architectural details and spatial flow. Using professional equipment and flexible scheduling, I capture each space's unique character while minimising disruption to commercial or residential environments.",
       features: [
-        "Location of your choice",
-        "Relaxed, natural posing guidance",
-        "Perfect for families with pets",
-        "Seasonal mini-sessions available",
-        "Variety of packages including digital images and prints",
-        "Quick turnaround times"
+        "Professional assessment of lighting and composition",
+        "Multiple angles and perspectives of each space",
+        "Advanced editing and color correction",
+        "High-resolution digital images for various applications",
+        "Expert lighting equipment to enhance architectural features",
+        "Consultation on space preparation and styling"
       ],
       faq: [
         {
-          question: "What should we wear for our interior space session?",
-          answer: "I recommend coordinating rather than matching outfits. Choose colors that complement each other and avoid large logos or distracting patterns. I'll provide more detailed guidance based on your chosen location and the style you prefer."
+          question: "How should I prepare my space before an interior photography session?",
+          answer: "For the best results, declutter and clean your space thoroughly. Remove personal items that might distract from the architectural features. Consider simple styling with minimal, tasteful decor. I can provide detailed preparation guidance specific to your space before the shoot."
         },
         {
-          question: "How do you handle children who don't want to cooperate?",
-          answer: "I have lots of experience with young children and understand they have their own timelines! I keep sessions fun and playful, with no pressure. Often the most authentic images come from letting kids be themselves rather than asking them to pose."
+          question: "What types of interior spaces do you photograph?",
+          answer: "I photograph a wide range of interior spaces including residential homes, commercial offices, retail businesses, restaurants, hotels, and architectural showcases. Each type of space requires different techniques to highlight its unique features and purpose."
         },
         {
-          question: "How many final images will we receive?",
-          answer: "This depends on the package you choose, but typically interior space sessions result in 15-25 final edited images. You'll have the opportunity to select your favorites from a wider gallery of proofs."
+          question: "How are the final images delivered, and what usage rights do I receive?",
+          answer: "You'll receive professionally edited, high-resolution digital images within 7-10 business days via a private online gallery. Images are suitable for print and digital use. Standard packages include usage rights for personal or business marketing purposes, while extended commercial licensing is available for publication or advertising use."
         }
       ],
       image: "/api/placeholder/800/600"

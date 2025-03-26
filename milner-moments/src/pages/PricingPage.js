@@ -14,22 +14,21 @@ const PricingPage = () => {
         description: "Perfect quick session at a local park or your home",
         features: [
           "30-Minute Mini Session",
-          "2 high-resolution digital images",
-          "Private online gallery",
-          "Quick turnaround (5 business days)"
+          "2 High-Resolution Digital Images",
+          "High Quality Digital Downloads",
+          "Quick Turnaround (up to 5 business days)"
         ],
         popular: false
       },
       {
         name: "Memory Package",
         price: "£95",
-        description: "Personalized session at your choice of location",
+        description: "Personalised session at your choice of location",
         features: [
           "60-Minute Full Session",
-          "8 high-resolution digital images",
-          "£15 print credit",
-          "Social media optimized files",
-          "Online gallery for 3 months"
+          "8 High-Resolution Digital Images",
+          "Social Media Optimized Files",
+          "Online Gallery for 3 Months"
         ],
         popular: true
       },
@@ -39,11 +38,11 @@ const PricingPage = () => {
         description: "Comprehensive session with multiple setups and backgrounds",
         features: [
           "90-Minute Extended Session",
-          "15 high-resolution digital images",
-          "One 8×10\" professional print",
-          "Custom digital album design",
-          "Online gallery for 6 months",
-          "Priority editing (7 days)"
+          "15 High-Resolution Digital Images",
+          "One 8×10\" Professional Print",
+          "Custom Digital Album Design",
+          "Online Gallery for 6 Months",
+          "Priority Editing (7 days)"
         ],
         popular: false
       },
@@ -53,11 +52,10 @@ const PricingPage = () => {
         description: "Relaxed photography experience with no time constraints",
         features: [
           "Unlimited Session Time",
-          "All session images (30-50 typically)",
+          "All Session Images (30-50 typically)",
           "Wall Art Collection (16×20\" canvas + two 8×10\" prints)",
-          "Custom mobile app",
-          "Online gallery for 12 months",
-          "Premium editing and artistic enhancements"
+          "Online Gallery for 12 Months",
+          "Premium Editing and Artistic Enhancements"
         ],
         popular: false
       }
@@ -68,9 +66,9 @@ const PricingPage = () => {
         price: "£75",
         description: "Beautiful wildlife images from our existing collection",
         features: [
-          "5 high-resolution wildlife images",
-          "Selection from various wildlife categories",
-          "Personal use license for prints up to 11×14\""
+          "5 High-Resolution Wildlife Images",
+          "Selection from Various Wildlife Categories",
+          "Personal Use License for Prints up to 11×14\""
         ],
         popular: false
       },
@@ -79,10 +77,10 @@ const PricingPage = () => {
         price: "£150",
         description: "Custom shoot at a local nature reserve",
         features: [
-          "2-hour wildlife photography session",
-          "10 high-resolution wildlife images",
-          "10% donation to local wildlife conservation",
-          "Digital guide about the photographed species"
+          "2-Hour Wildlife Photography Session",
+          "10 High-Resolution Wildlife Images",
+          "10% Donation to Local Wildlife Conservation",
+          "Digital Guide About the Photographed Species"
         ],
         popular: true
       },
@@ -91,51 +89,50 @@ const PricingPage = () => {
         price: "£295",
         description: "Extended adventure for wildlife enthusiasts",
         features: [
-          "Half-day (4-hour) guided wildlife experience",
-          "20 high-resolution wildlife images",
-          "Set of 5×7\" prints (your favorite 5 images)",
-          "15% donation to wildlife conservation",
-          "Custom printed wildlife booklet"
+          "Half-Day (4-hour) Guided Wildlife Experience",
+          "20 High-Resolution Wildlife Images",
+          "Set of 5×7\" Prints (your favourite 5 images)",
+          "15% Donation to Wildlife Conservation",
+          "Custom Printed Wildlife Booklet"
         ],
         popular: false
       }
     ],
     portrait: [
       {
-        name: "Essence Package",
-        price: "£85",
-        description: "Perfect for individuals or couples",
+        name: "Basic Interior Package",
+        price: "£125",
+        description: "Perfect for showcasing a single room or small space",
         features: [
-          "45-Minute Session",
-          "5 high-resolution digital images",
-          "Indoor studio or outdoor setting",
-          "Professional editing"
+          "1-Hour Session",
+          "5 High-Resolution Digital Images",
+          "Professional Lighting Setup",
+          "Advanced Composition and Styling Advice"
         ],
         popular: false
       },
       {
-        name: "Connection Package",
-        price: "£175",
-        description: "Ideal for families or small groups",
+        name: "Standard Interior Package",
+        price: "£250",
+        description: "Comprehensive coverage for residential or small commercial spaces",
         features: [
-          "75-Minute Session",
-          "12 high-resolution digital images",
-          "Option to use 2 nearby locations",
-          "Two 5×7\" and one 8×10\" professional prints",
-          "Enhanced editing and color grading"
+          "2-Hour Session",
+          "12 High-Resolution Digital Images",
+          "Multiple Angles of Each Space",
+          "Expert Editing and Colour Correction",
         ],
         popular: true
       },
       {
-        name: "Celebration Package",
-        price: "£345",
-        description: "Comprehensive coverage for extended families or special events",
+        name: "Premium Interior Package",
+        price: "£450",
+        description: "Complete solution for larger properties or detailed architectural photography",
         features: [
-          "2-Hour Session",
-          "25 high-resolution digital images",
-          "One 16×20\" mounted print",
-          "8×8\" premium layflat photo album",
-          "Premium editing and artistic effects"
+          "4-Hour Session",
+          "25 High-Resolution Digital Images",
+          "Twilight/Golden Hour Exterior Shots Included",
+          "Detailed Architectural Element Coverage",
+          "Premium Editing with Colour Enhancement"
         ],
         popular: false
       }
@@ -143,11 +140,7 @@ const PricingPage = () => {
   };
   
   const addOns = [
-    {
-      name: "Custom Pet Portrait Painting",
-      price: "£175+",
-      description: "Professional hand-painted artwork based on your favorite photo"
-    },
+   
     {
       name: "Express Editing",
       price: "£45",
@@ -195,7 +188,7 @@ const PricingPage = () => {
               className={`pricing-tab ${activeCategory === 'portrait' ? 'active' : ''}`}
               onClick={() => setActiveCategory('portrait')}
             >
-              Portrait & Family
+              Interior Space
             </button>
           </div>
           
@@ -246,15 +239,10 @@ const PricingPage = () => {
               </div>
               <div className="offer-text">
                 <h3>Exclusive Offer: Custom Pet Portrait Paintings</h3>
-                <p>Transform your favorite pet photograph into a stunning handcrafted painting. Our local artist partner creates beautiful, personalized artwork that captures your pet's unique personality and spirit.</p>
+                <p>Transform your favourite pet photograph into a stunning handcrafted painting. Our local artist partner creates beautiful, personalised artwork that captures your pet's unique personality and spirit.</p>
                 <p className="offer-note">Starting at £175, with multiple size options available.</p>
               </div>
             </div>
-          </div>
-          
-          <div className="price-guarantee">
-            <h3>Price Match Promise</h3>
-            <p>Found a comparable photography package at a lower price? Let us know and we'll match it! We're committed to providing exceptional quality at competitive prices.</p>
           </div>
           
           <div className="booking-process">
@@ -292,7 +280,7 @@ const PricingPage = () => {
                 <div className="step-number">5</div>
                 <div className="step-content">
                   <h3>Image Selection</h3>
-                  <p>Review your private gallery and select your favorite images.</p>
+                  <p>Review your private gallery and select your favourite images.</p>
                 </div>
               </div>
               <div className="process-step">
@@ -313,6 +301,10 @@ const PricingPage = () => {
                 <p>We accept bank transfers, credit/debit cards, and PayPal. A 50% deposit is required to secure your booking, with the remaining balance due on or before the day of your session.</p>
               </div>
               <div className="faq-item">
+                <h3>How much does delivery cost?</h3>
+                <p>Delivery starts from £2.95, depending on products purchased.</p>
+              </div>
+              <div className="faq-item">
                 <h3>What happens if I need to reschedule?</h3>
                 <p>We understand that plans change. You can reschedule your session with at least 48 hours notice at no additional cost. Rescheduling with less than 48 hours notice may incur a £25 fee.</p>
               </div>
@@ -322,7 +314,7 @@ const PricingPage = () => {
               </div>
               <div className="faq-item">
                 <h3>Do you offer mini sessions?</h3>
-                <p>Yes! We offer seasonal mini-sessions throughout the year. These are short, themed sessions at a reduced rate. Follow us on social media or join our mailing list to be notified about upcoming mini sessions.</p>
+                <p>Yes! We offer seasonal mini-sessions throughout the year for your furry friends. These are short, themed sessions at a reduced rate. Follow us on social media or join our mailing list to be notified about upcoming mini sessions.</p>
               </div>
             </div>
           </div>

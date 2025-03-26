@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="page-header">
         <div className="container">
           <h1 className="page-title">Contact Us</h1>
-          <p className="page-subtitle">Have questions or ready to book your session? We'd love to hear from you!</p>
+          <p className="page-subtitle">Do you have any questions or are you ready to book your session? We'd love to hear from you!</p>
         </div>
       </div>
       
@@ -168,7 +168,7 @@ const Contact = () => {
                 ) : (
                   <form onSubmit={handleSubmit} className="contact-form">
                     {/* Hidden field for Formspree to know the form name */}
-                    <input type="hidden" name="_subject" value="New Photography Inquiry from Website" />
+                    <input type="hidden" name="_subject" value="New Photography Enquiry from Website" />
                     
                     <div className="form-row">
                       <div className="form-group">
@@ -286,7 +286,7 @@ const Contact = () => {
                         required
                       />
                       <label htmlFor="privacy">
-                        I agree to the <Link to="/privacy-policy">privacy policy</Link> and consent to being contacted regarding my inquiry.
+                        I agree to the <Link to="/privacy-policy">privacy policy</Link> and consent to being contacted regarding the enquiry.
                       </label>
                     </div>
                     

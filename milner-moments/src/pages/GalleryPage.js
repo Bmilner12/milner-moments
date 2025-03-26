@@ -17,7 +17,7 @@ const GalleryPage = () => {
   const subcategories = {
     pets: ['Dogs', 'Cats', 'Other Pets'],
     wildlife: ['Birds', 'Mammals', 'Insects'],
-    portraits: ['Individuals', 'Couples', 'Families']
+    portraits: ['Residential', 'Commercial', 'Architectural']
   };
   
   // This would be replaced with your actual gallery images
@@ -28,12 +28,12 @@ const GalleryPage = () => {
     { id: 4, category: 'wildlife', subcategory: 'Birds', title: 'Perfect Timing', description: 'Kingfisher diving for a fish', image: '/api/placeholder/800/1000' },
     { id: 5, category: 'wildlife', subcategory: 'Mammals', title: 'Wilderness Guardian', description: 'Fox in its natural habitat', image: '/api/placeholder/800/1000' },
     { id: 6, category: 'wildlife', subcategory: 'Insects', title: 'New Beginnings', description: 'Butterfly emerging from cocoon', image: '/api/placeholder/800/1000' },
-    { id: 7, category: 'portraits', subcategory: 'Families', title: 'Connected Moments', description: 'Family enjoying a picnic in the park', image: '/api/placeholder/800/1000' },
-    { id: 8, category: 'portraits', subcategory: 'Couples', title: 'Twilight Romance', description: 'Couple silhouette against sunset', image: '/api/placeholder/800/1000' },
-    { id: 9, category: 'portraits', subcategory: 'Individuals', title: 'Authentic Self', description: 'Natural light interior space of woman laughing', image: '/api/placeholder/800/1000' },
+    { id: 7, category: 'portraits', subcategory: 'Architectural', title: 'Connected Moments', description: 'Family enjoying a picnic in the park', image: '/api/placeholder/800/1000' },
+    { id: 8, category: 'portraits', subcategory: 'Commercial', title: 'Twilight Romance', description: 'Couple silhouette against sunset', image: '/api/placeholder/800/1000' },
+    { id: 9, category: 'portraits', subcategory: 'Residential', title: 'Authentic Self', description: 'Natural light interior space of woman laughing', image: '/api/placeholder/800/1000' },
     { id: 10, category: 'pets', subcategory: 'Other Pets', title: 'Curious Friend', description: 'Rabbit exploring a garden setting', image: '/api/placeholder/800/1000' },
     { id: 11, category: 'wildlife', subcategory: 'Mammals', title: 'Dawn Visitor', description: 'Deer at sunrise in misty field', image: '/api/placeholder/800/1000' },
-    { id: 12, category: 'portraits', subcategory: 'Families', title: 'New Friends', description: 'Child with puppy interior space', image: '/api/placeholder/800/1000' },
+    { id: 12, category: 'portraits', subcategory: 'Architectural', title: 'New Friends', description: 'Child with puppy interior space', image: '/api/placeholder/800/1000' },
   ];
   
   const filteredImages = activeCategory === 'all' 

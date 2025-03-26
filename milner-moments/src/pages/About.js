@@ -19,18 +19,18 @@ const About = () => {
         <div className="container">
           <div className="about-grid">
             <div className="about-image">
-              <img src="/api/placeholder/600/800" alt="Photographer" />
+              <img src="images/Brad_Profile_Pic.jpg" alt="Photographer" />
             </div>
             <div className="about-content">
-              <h2>Hello, I'm Alex</h2>
-              <p>Welcome to MilnerMoments Photography! I'm a passionate photographer based in Leeds, specializing in pet, wildlife, and Interior Space Photography.</p>
-              <p>My journey into photography began 10 years ago when I received my first camera as a gift. What started as a hobby quickly developed into a passion and eventually into the business you see today.</p>
+              <h2>Hello, I'm Brad</h2>
+              <p>Welcome to MilnerMoments Photography! I'm a passionate photographer based in Leeds, specialising in Pet, Wildlife, and Interior Space Photography.</p>
+              <p>My journey into photography began over 16 years ago when I received my first camera as a gift. What started as a hobby quickly developed into a passion and eventually into the business you see today.</p>
               <p>I believe that every pet has a unique personality, every wildlife encounter tells a story, and every interior space captures a moment in time that will never be repeated. My mission is to preserve these special moments for you to treasure forever.</p>
-              <p>At MilnerMoments, we pride ourselves on creating a relaxed, enjoyable experience that allows the true essence of the subject to shine through. Whether it's capturing the playful spirit of your pet, the majesty of wildlife in their natural habitat, or the special connection between family members, we approach each session with dedication and creativity.</p>
+              <p>At MilnerMoments, we pride ourselves on creating a relaxed, enjoyable experience that allows the true essence of the subject to shine through. Whether it's capturing the playful spirit of your pet, the majesty of wildlife in their natural habitat, or the grandeur of an interior space, we approach each session with dedication and creativity.</p>
               <div className="signature">
-                <p>Looking forward to capturing your special moments,</p>
-                <img src="/api/placeholder/150/60" alt="Signature" className="signature-img" />
-                <p className="signature-name">Alex Milner</p>
+                <p>I'mooking forward to capturing your special moments,</p>
+                <img src="images/Milner_Moments_Signature.png" alt="Signature" className="signature-img" />
+                <p className="signature-name">Brad Milner</p>
                 <p className="signature-title">Founder & Lead Photographer</p>
               </div>
             </div>
@@ -82,33 +82,40 @@ const About = () => {
             <div className="process-item">
               <div className="process-number">1</div>
               <div className="process-content">
-                <h3>Initial Consultation</h3>
-                <p>We begin with a conversation about your vision and requirements, answering any questions you might have and discussing location options.</p>
+                <h3>Enquiry</h3>
+                <p>Contact us via email or phone to discuss your photography needs.</p>
               </div>
             </div>
             <div className="process-item">
               <div className="process-number">2</div>
+              <div className="process-content">
+                <h3>Consultation</h3>
+                <p>We will then have a free 15-minute phone consultation to discuss your vision and requirements, answering any questions you might have and deciding on location options. </p>
+              </div>
+            </div>
+            <div className="process-item">
+              <div className="process-number">3</div>
+              <div className="process-content">
+                <h3>Booking</h3>
+                <p>Once a date is finalised, a 50% deposit will be required in order to secure your preferred date and time.</p>
+              </div>
+            </div>
+            <div className="process-item">
+              <div className="process-number">4</div>
               <div className="process-content">
                 <h3>The Photography Session</h3>
                 <p>Our relaxed, friendly approach creates an enjoyable experience where natural moments can be captured beautifully.</p>
               </div>
             </div>
             <div className="process-item">
-              <div className="process-number">3</div>
-              <div className="process-content">
-                <h3>Expert Editing</h3>
-                <p>Each image is carefully edited to bring out its best qualities while maintaining a natural look.</p>
-              </div>
-            </div>
-            <div className="process-item">
-              <div className="process-number">4</div>
+              <div className="process-number">5</div>
               <div className="process-content">
                 <h3>Image Review & Selection</h3>
-                <p>View your images in a private online gallery and select your favorites.</p>
+                <p>View your images in a private online gallery and select your favourites. Each image is carefully edited to bring out its best qualities while maintaining a natural look.</p>
               </div>
             </div>
             <div className="process-item">
-              <div className="process-number">5</div>
+              <div className="process-number">6</div>
               <div className="process-content">
                 <h3>Product Delivery</h3>
                 <p>Receive your beautifully finished digital images and any prints or products you've selected.</p>

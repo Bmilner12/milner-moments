@@ -43,13 +43,13 @@ const Services = () => {
       features: [
         "Indoor or outdoor sessions",
         "Multiple pets welcome",
-        "Natural and studio lighting options",
-        "Personalized experience for shy or energetic pets"
+        "Natural lighting options",
+        "Personalised experience for shy or energetic pets"
       ]
     },
     {
       title: "Wildlife Photography",
-      description: "Stunning images of animals in their natural habitats, from local wildlife to specialized nature expeditions.",
+      description: "Stunning images of animals in their natural habitats, from local wildlife to specialised nature expeditions.",
       image: "/api/placeholder/400/300",
       features: [
         "Local wildlife locations",
@@ -75,7 +75,7 @@ const Services = () => {
     <section className="services">
       <div className="container">
         <h2 className="section-title">Services</h2>
-        <p className="section-subtitle">Professional photography services tailored to capture the personalities and beauty of your pets, wildlife encounters, and special moments.</p>
+        <p className="section-subtitle">Professional photography services tailored to capture the personalities and beauty of your Pets, Wildlife Encounters, and Interior Spaces.</p>
         
         <div className="services-grid">
           {services.map((service, index) => (

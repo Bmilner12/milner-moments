@@ -22,7 +22,7 @@ const Gallery = () => {
     <section className="gallery">
       <div className="container">
         <h2 className="section-title">Featured Work</h2>
-        <p className="section-subtitle">A selection of my favorite captures, showcasing the beauty and personality of my subjects. Each image tells a unique story.</p>
+        <p className="section-subtitle">A selection of my favourite captures, showcasing the beauty and personality of my subjects. Each image tells a unique story.</p>
         
         <div className="gallery-filters">
           <div className="filter-group">
@@ -48,7 +48,7 @@ const Gallery = () => {
               className={`filter-btn ${activeFilter === 'portraits' ? 'active' : ''}`}
               onClick={() => setActiveFilter('portraits')}
             >
-              Portraits
+              Interior
             </button>
           </div>
         </div>
