@@ -242,7 +242,7 @@ const PricingPage = () => {
           <div className="special-offer">
             <div className="offer-content">
               <div className="offer-icon">
-                <img src="/api/placeholder/60/60" alt="Painting Icon" />
+                <img src="images/Jessie_Painting.jpg" alt="Painting Icon" />
               </div>
               <div className="offer-text">
                 <h3>Exclusive Offer: Custom Pet Portrait Paintings</h3>

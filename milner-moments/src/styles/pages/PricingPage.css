@@ -219,6 +219,13 @@
   .offer-icon {
     flex-shrink: 0;
   }
+
+  /* Add this to your PricingPage.css file */
+.offer-icon img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
   
   .offer-text h3 {
     font-size: 1.5rem;
