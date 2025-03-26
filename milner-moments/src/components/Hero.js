@@ -12,13 +12,13 @@ const Hero = () => {
       subtitle: 'Capturing Personalities'
     },
     {
-      image: '/api/placeholder/1600/900',
+      image: 'images/Mute_Swan_Reflection.jpg',
       title: 'Wildlife Photography',
       subtitle: 'Nature\'s Finest Moments'
     },
     {
-      image: '/api/placeholder/1600/900',
-      title: 'Portrait Photography',
+      image: 'images/Royal_Armouries.jpg',
+      title: 'Landscape Photography',
       subtitle: 'Timeless Memories'
     }
   ];
