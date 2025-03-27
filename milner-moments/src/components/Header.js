@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/components/Header.css';
+import DarkModeToggle from './DarkModeToggle';
+import { ThemeContext } from '../context/ThemeContext';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { darkMode } = useContext(ThemeContext);
   
   useEffect(() => {
     const handleScroll = () => {
@@ -26,7 +29,7 @@ const Header = () => {
   };
   
   return (
-    <header className={`header ${scrolled ? 'scrolled' : ''}`}>
+    <header className={`header ${scrolled ? 'scrolled' : ''} ${darkMode ? 'dark-mode' : ''}`}>
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
@@ -44,7 +47,10 @@ const Header = () => {
             </ul>
           </nav>
           
-          <Link to="/contact" className="book-btn">Book a Session</Link>
+          <div className="header-actions">
+            <DarkModeToggle />
+            <Link to="/contact" className="book-btn">Book a Session</Link>
+          </div>
           
           <button 
             className="mobile-menu-btn"
@@ -59,9 +65,15 @@ const Header = () => {
       </div>
       
       {/* Mobile Menu */}
-      <div className={`mobile-menu-overlay ${mobileMenuOpen ? 'active' : ''}`} onClick={toggleMobileMenu}></div>
-      <div className={`mobile-menu ${mobileMenuOpen ? 'active' : ''}`}>
+      <div 
+        className={`mobile-menu-overlay ${mobileMenuOpen ? 'active' : ''}`} 
+        onClick={toggleMobileMenu}
+      ></div>
+      <div className={`mobile-menu ${mobileMenuOpen ? 'active' : ''} ${darkMode ? 'dark-mode' : ''}`}>
         <nav>
+          <div className="mobile-dark-mode">
+            <DarkModeToggle />
+          </div>
           <ul>
             <li><Link to="/" onClick={toggleMobileMenu}>Home</Link></li>
             <li><Link to="/about" onClick={toggleMobileMenu}>About</Link></li>

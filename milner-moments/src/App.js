@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import TermsPage from './pages/TermsPage';
 import PrivacyPage from './pages/PrivacyPage';
 import CookiesPage from './pages/CookiesPage';
+import { ThemeProvider } from './context/ThemeContext';
 import './styles/globals.css';
 
 // ScrollToTop component
@@ -22,23 +23,26 @@ function ScrollToTop() {
   return null;
 }
 
+// Wrap the app in both providers
 function App() {
   return (
     <Router>
-      <ScrollToTop />
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/gallery" element={<GalleryPage />} />
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/pricing" element={<PricingPage />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/terms-and-conditions" element={<TermsPage />} />
-          <Route path="/privacy" element={<PrivacyPage />} />
-          <Route path="/cookies" element={<CookiesPage />} />
-        </Routes>
-      </div>
+      <ThemeProvider>
+        <ScrollToTop />
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/pricing" element={<PricingPage />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/terms-and-conditions" element={<TermsPage />} />
+            <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/cookies" element={<CookiesPage />} />
+          </Routes>
+        </div>
+      </ThemeProvider>
     </Router>
   );
 }
