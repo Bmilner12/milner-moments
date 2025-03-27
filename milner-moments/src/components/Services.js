@@ -39,7 +39,7 @@ const Services = () => {
     {
       title: "Pet Photography",
       description: "Capture the unique personality and spirit of your beloved pets in beautiful, professional portraits.",
-      image: "/api/placeholder/400/300",
+      image: "images/Toby.jpg",
       features: [
         "Indoor or outdoor sessions",
         "Multiple pets welcome",
@@ -50,7 +50,7 @@ const Services = () => {
     {
       title: "Wildlife Photography",
       description: "Stunning images of animals in their natural habitats, from local wildlife to specialised nature expeditions.",
-      image: "/api/placeholder/400/300",
+      image: "images/Robin.jpg",
       features: [
         "Local wildlife locations",
         "Dawn and dusk sessions",
@@ -61,7 +61,7 @@ const Services = () => {
     {
       title: "Interior Space Photography",
       description: "Timeless interior space sessions for individuals, couples, and families that tell your unique story.",
-      image: "/api/placeholder/400/300",
+      image: "images/OldPostOffice_Table.jpg",
       features: [
         "Location of your choice",
         "Relaxed, natural posing guidance",

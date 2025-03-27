@@ -11,29 +11,29 @@ const GalleryPage = () => {
     { id: 'all', name: 'All Photos' },
     { id: 'pets', name: 'Pet Photography' },
     { id: 'wildlife', name: 'Wildlife Photography' },
-    { id: 'portraits', name: 'Interior Space Photography' },
+    { id: 'Interior', name: 'Interior Space Photography' },
   ];
   
   const subcategories = {
     pets: ['Dogs', 'Cats', 'Other Pets'],
-    wildlife: ['Birds', 'Mammals', 'Insects'],
-    portraits: ['Residential', 'Commercial', 'Architectural']
+    wildlife: ['Birds', 'Mammals', 'Other'],
+    Interior: ['Residential', 'Commercial', 'Architectural']
   };
   
   // This would be replaced with your actual gallery images
   const galleryImages = [
     { id: 1, category: 'pets', subcategory: 'Dogs', title: 'Alert Companion', description: 'Energetic mixed-breed dog enjoying a walk on a crisp autumn day.', image: 'images/dog_with_lead.jpg' },
-    { id: 2, category: 'pets', subcategory: 'Other Pets', title: '', description: 'Close-up of a tabby cat with striking green eyes', image: 'images/Toby.jpg' },
-    { id: 3, category: 'pets', subcategory: 'Dogs', title: 'Beach Run', description: 'Black lab running along the shoreline', image: 'images/Golden_Retriever_Puppy.jpg' },
-    { id: 4, category: 'wildlife', subcategory: 'Birds', title: 'Perfect Timing', description: 'Kingfisher diving for a fish', image: 'images/Mute_Swan_Wings.jpg' },
-    { id: 5, category: 'wildlife', subcategory: 'Mammals', title: 'Wilderness Guardian', description: 'Fox in its natural habitat', image: 'images/Robin.jpg' },
-    { id: 6, category: 'wildlife', subcategory: 'Insects', title: 'New Beginnings', description: 'Butterfly emerging from cocoon', image: 'images/Duck.jpg' },
-    { id: 7, category: 'portraits', subcategory: 'Architectural', title: 'Connected Moments', description: 'Family enjoying a picnic in the park', image: 'images/OldPostOffice_portrait.jpg' },
-    { id: 8, category: 'portraits', subcategory: 'Commercial', title: 'Twilight Romance', description: 'Couple silhouette against sunset', image: 'images/Halifax_Retro_Arcade.jpg' },
-    { id: 9, category: 'portraits', subcategory: 'Residential', title: 'Authentic Self', description: 'Natural light interior space of woman laughing', image: 'images/Royal_Armouries.jpg' },
-    { id: 10, category: 'pets', subcategory: 'Other Pets', title: 'Curious Friend', description: 'Rabbit exploring a garden setting', image: 'images/Lizard.jpg' },
-    { id: 11, category: 'wildlife', subcategory: 'Mammals', title: 'Dawn Visitor', description: 'Deer at sunrise in misty field', image: 'images/Flower_Field.jpg' },
-    { id: 12, category: 'portraits', subcategory: 'Architectural', title: 'New Friends', description: 'Child with puppy interior space', image: 'images/OldPostOffice_Table.jpg' },
+    { id: 2, category: 'pets', subcategory: 'Dogs', title: 'Sleeping Chorkie in Repose', description: 'Close-up of a peaceful Chorkie (Chihuahua-Terrier mix) with sandy fur, dozing peacefully on a carpet.', image: 'images/Toby.jpg' },
+    { id: 3, category: 'pets', subcategory: 'Dogs', title: 'Curious Labrador Puppy', description: 'Young Labrador puppy with cream-colored fur looking upward attentively, wearing a harness and collar.', image: 'images/Golden_Retriever_Puppy.jpg' },
+    { id: 4, category: 'wildlife', subcategory: 'Birds', title: 'Graceful Sentinel', description: 'Elegant swan captured in a moment of serene contemplation at water\'s edge, its pristine white feathers contrasting against the earthy backdrop of nature.', image: 'images/Mute_Swan_Wings.jpg' },
+    { id: 5, category: 'wildlife', subcategory: 'Birds', title: 'Urban Guardian', description: 'A vibrant robin perched on weathered stone, its bright orange breast a splash of color against the rustic backdrop of aged brick.', image: 'images/Robin.jpg' },
+    { id: 6, category: 'wildlife', subcategory: 'Birds', title: 'Tranquil Passage', description: 'A solitary duck glides across emerald waters, creating gentle ripples that dance with the light while spring reeds frame this moment of peaceful solitude.', image: 'images/Duck.jpg' },
+    { id: 7, category: 'Interior', subcategory: 'Commercial', title: 'Timeless Corner', description: 'A cozy, vintage-inspired café setting bathed in soft natural light, evoking warmth and nostalgia.', image: 'images/OldPostOffice_portrait.jpg' },
+    { id: 8, category: 'Interior', subcategory: 'Residential', title: 'Nostalgic Retreat', description: 'A cozy, retro-inspired living room filled with vintage charm, warm lighting, and classic childhood memories.', image: 'images/Halifax_Retro_Arcade.jpg' },
+    { id: 9, category: 'Interior', subcategory: 'Architectural', title: 'Majestic Arsenal', description: 'A striking architectural display of historical weaponry, arranged in perfect symmetry beneath a grand skylight.', image: 'images/Royal_Armouries.jpg' },
+    { id: 10, category: 'pets', subcategory: 'Other Pets', title: 'Curious Friend', description: ' Capturing the mesmerising gaze and textured beauty of reptilian wisdom against a soft emerald backdrop.', image: 'images/Lizard.jpg' },
+    { id: 11, category: 'wildlife', subcategory: 'Other', title: 'Spring Symphony', description: 'A magnificent tapestry of purple and white crocuses blankets the earth in a breathtaking display of nature\'s artistry, heralding the arrival of spring.', image: 'images/Flower_Field.jpg' },
+    { id: 12, category: 'Interior', subcategory: 'Commercial', title: 'Solitary Anticipation', description: 'Soft light filters through multi-paned windows, illuminating a minimalist dining space with a rich wooden table and curved chairs, creating a mood of quiet expectation.', image: 'images/OldPostOffice_Table.jpg' },
   ];
   
   const filteredImages = activeCategory === 'all' 

@@ -7,11 +7,11 @@ const Gallery = () => {
   
   const galleryItems = [
     { id: 1, image: 'images/dog_with_lead.jpg', title: 'Autumn Joy', category: 'pets' },
-    { id: 2, image: 'images/Mute_Swan_Wings.jpg', title: 'Wilderness Guardian', category: 'wildlife' },
-    { id: 3, image: 'images/Golden_Retriever_Puppy.jpg', title: 'Emerald Gaze', category: 'pets' },
-    { id: 4, image: 'images/OldPostOffice_portrait.jpg', title: 'Connected Moments', category: 'portraits' },
+    { id: 2, image: 'images/Mute_Swan_Wings.jpg', title: 'Graceful Sentinel', category: 'wildlife' },
+    { id: 3, image: 'images/Golden_Retriever_Puppy.jpg', title: 'Curious Labrador Puppy', category: 'pets' },
+    { id: 4, image: 'images/OldPostOffice_portrait.jpg', title: 'Timeless Corner', category: 'Interior' },
     { id: 5, image: 'images/mawhen.jpg', title: 'Perfect Timing', category: 'wildlife' },
-    { id: 6, image: 'images/Halifax_Retro_Arcade.jpg', title: 'New Friends', category: 'portraits' },
+    { id: 6, image: 'images/Halifax_Retro_Arcade.jpg', title: 'Nostalgia Corner', category: 'Interior' },
   ];
   
   const filteredItems = activeFilter === 'all' 
@@ -45,8 +45,8 @@ const Gallery = () => {
               Wildlife
             </button>
             <button 
-              className={`filter-btn ${activeFilter === 'portraits' ? 'active' : ''}`}
-              onClick={() => setActiveFilter('portraits')}
+              className={`filter-btn ${activeFilter === 'Interior' ? 'active' : ''}`}
+              onClick={() => setActiveFilter('Interior')}
             >
               Interior
             </button>
