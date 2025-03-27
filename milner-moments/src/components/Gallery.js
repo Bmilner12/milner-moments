@@ -7,11 +7,11 @@ const Gallery = () => {
   
   const galleryItems = [
     { id: 1, image: 'images/dog_with_lead.jpg', title: 'Autumn Joy', category: 'pets' },
-    { id: 2, image: '/api/placeholder/600/750', title: 'Wilderness Guardian', category: 'wildlife' },
-    { id: 3, image: '/api/placeholder/600/750', title: 'Emerald Gaze', category: 'pets' },
-    { id: 4, image: '/api/placeholder/600/750', title: 'Connected Moments', category: 'portraits' },
-    { id: 5, image: '/api/placeholder/600/750', title: 'Perfect Timing', category: 'wildlife' },
-    { id: 6, image: '/api/placeholder/600/750', title: 'New Friends', category: 'portraits' },
+    { id: 2, image: 'images/Mute_Swan_Wings.jpg', title: 'Wilderness Guardian', category: 'wildlife' },
+    { id: 3, image: 'images/Golden_Retriever_Puppy.jpg', title: 'Emerald Gaze', category: 'pets' },
+    { id: 4, image: 'images/OldPostOffice_portrait.jpg', title: 'Connected Moments', category: 'portraits' },
+    { id: 5, image: 'images/mawhen.jpg', title: 'Perfect Timing', category: 'wildlife' },
+    { id: 6, image: 'images/Halifax_Retro_Arcade.jpg', title: 'New Friends', category: 'portraits' },
   ];
   
   const filteredItems = activeFilter === 'all' 

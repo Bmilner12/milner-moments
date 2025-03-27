@@ -34,7 +34,7 @@ const ServicesPage = () => {
           answer: "A well-rested, recently exercised pet tends to be more cooperative. If needed, consider a grooming session a day or two before. Bring their favorite treats and toys to the session, and avoid feeding them a full meal right before we start."
         }
       ],
-      image: "/api/placeholder/800/600"
+      image: "images/Toby.jpg"
     },
     wildlife: {
       title: "Wildlife Photography",
@@ -63,7 +63,7 @@ const ServicesPage = () => {
           answer: "Wildlife sessions are typically longer than other types of photography as they require patience. Sessions range from 2 hours to half-day expeditions, depending on the package you choose."
         }
       ],
-      image: "/api/placeholder/800/600"
+      image: "images/Robin.jpg"
     },
     interior: {
       title: "Interior Space Photography",
@@ -92,7 +92,7 @@ const ServicesPage = () => {
           answer: "You'll receive professionally edited, high-resolution digital images within 7-10 business days via a private online gallery. Images are suitable for print and digital use. Usage rights and licenses to be discussed in consultation."
         }
       ],
-      image: "/api/placeholder/800/600"
+      image: "images/OldPostOffice_Table.jpg"
     }
   };
   

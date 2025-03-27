@@ -23,17 +23,17 @@ const GalleryPage = () => {
   // This would be replaced with your actual gallery images
   const galleryImages = [
     { id: 1, category: 'pets', subcategory: 'Dogs', title: 'Alert Companion', description: 'Energetic mixed-breed dog enjoying a walk on a crisp autumn day.', image: 'images/dog_with_lead.jpg' },
-    { id: 2, category: 'pets', subcategory: 'Cats', title: 'Emerald Gaze', description: 'Close-up of a tabby cat with striking green eyes', image: '/api/placeholder/800/1000' },
-    { id: 3, category: 'pets', subcategory: 'Dogs', title: 'Beach Run', description: 'Black lab running along the shoreline', image: '/api/placeholder/800/1000' },
-    { id: 4, category: 'wildlife', subcategory: 'Birds', title: 'Perfect Timing', description: 'Kingfisher diving for a fish', image: '/api/placeholder/800/1000' },
-    { id: 5, category: 'wildlife', subcategory: 'Mammals', title: 'Wilderness Guardian', description: 'Fox in its natural habitat', image: '/api/placeholder/800/1000' },
-    { id: 6, category: 'wildlife', subcategory: 'Insects', title: 'New Beginnings', description: 'Butterfly emerging from cocoon', image: '/api/placeholder/800/1000' },
-    { id: 7, category: 'portraits', subcategory: 'Architectural', title: 'Connected Moments', description: 'Family enjoying a picnic in the park', image: '/api/placeholder/800/1000' },
-    { id: 8, category: 'portraits', subcategory: 'Commercial', title: 'Twilight Romance', description: 'Couple silhouette against sunset', image: '/api/placeholder/800/1000' },
-    { id: 9, category: 'portraits', subcategory: 'Residential', title: 'Authentic Self', description: 'Natural light interior space of woman laughing', image: '/api/placeholder/800/1000' },
-    { id: 10, category: 'pets', subcategory: 'Other Pets', title: 'Curious Friend', description: 'Rabbit exploring a garden setting', image: '/api/placeholder/800/1000' },
-    { id: 11, category: 'wildlife', subcategory: 'Mammals', title: 'Dawn Visitor', description: 'Deer at sunrise in misty field', image: '/api/placeholder/800/1000' },
-    { id: 12, category: 'portraits', subcategory: 'Architectural', title: 'New Friends', description: 'Child with puppy interior space', image: '/api/placeholder/800/1000' },
+    { id: 2, category: 'pets', subcategory: 'Other Pets', title: '', description: 'Close-up of a tabby cat with striking green eyes', image: 'images/Toby.jpg' },
+    { id: 3, category: 'pets', subcategory: 'Dogs', title: 'Beach Run', description: 'Black lab running along the shoreline', image: 'images/Golden_Retriever_Puppy.jpg' },
+    { id: 4, category: 'wildlife', subcategory: 'Birds', title: 'Perfect Timing', description: 'Kingfisher diving for a fish', image: 'images/Mute_Swan_Wings.jpg' },
+    { id: 5, category: 'wildlife', subcategory: 'Mammals', title: 'Wilderness Guardian', description: 'Fox in its natural habitat', image: 'images/Robin.jpg' },
+    { id: 6, category: 'wildlife', subcategory: 'Insects', title: 'New Beginnings', description: 'Butterfly emerging from cocoon', image: 'images/Duck.jpg' },
+    { id: 7, category: 'portraits', subcategory: 'Architectural', title: 'Connected Moments', description: 'Family enjoying a picnic in the park', image: 'images/OldPostOffice_portrait.jpg' },
+    { id: 8, category: 'portraits', subcategory: 'Commercial', title: 'Twilight Romance', description: 'Couple silhouette against sunset', image: 'images/Halifax_Retro_Arcade.jpg' },
+    { id: 9, category: 'portraits', subcategory: 'Residential', title: 'Authentic Self', description: 'Natural light interior space of woman laughing', image: 'images/Royal_Armouries.jpg' },
+    { id: 10, category: 'pets', subcategory: 'Other Pets', title: 'Curious Friend', description: 'Rabbit exploring a garden setting', image: 'images/Lizard.jpg' },
+    { id: 11, category: 'wildlife', subcategory: 'Mammals', title: 'Dawn Visitor', description: 'Deer at sunrise in misty field', image: 'images/Flower_Field.jpg' },
+    { id: 12, category: 'portraits', subcategory: 'Architectural', title: 'New Friends', description: 'Child with puppy interior space', image: 'images/OldPostOffice_Table.jpg' },
   ];
   
   const filteredImages = activeCategory === 'all' 
