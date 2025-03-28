@@ -238,7 +238,7 @@ const PricingPage = () => {
                 <img src="images/Jessie_Painting.jpg" alt="Painting Icon" />
               </div>
               <div className="offer-text">
-                <h3>Exclusive Offer: Custom Pet Interior Paintings</h3>
+                <h3>Exclusive Offer: Custom Pet Portrait Paintings</h3>
                 <p>Transform your favourite pet photograph into a stunning handcrafted painting. Our local artist partner creates beautiful, personalised artwork that captures your pet's unique personality and spirit.</p>
                 <p className="offer-note">Starting at £175, with multiple size options available.</p>
               </div>
