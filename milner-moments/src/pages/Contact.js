@@ -273,6 +273,7 @@ const Contact = () => {
                         <option value="social">Social Media</option>
                         <option value="search">Search Engine</option>
                         <option value="referral">Friend/Family Referral</option>
+                        <option value="referral">Belle Âme Art </option>
                         <option value="event">Local Event</option>
                         <option value="other">Other</option>
                       </select>
